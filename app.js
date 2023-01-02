@@ -77,5 +77,5 @@ app.use((req,res,next)=>{
 })
 
 app.listen(PORT,()=>{
-    console.log(`Server Is Running at PORT ${process.env.NODE_ENV} mode ${PORT}`);
+    console.log(`Server Is Running at PORT mode ${PORT}`);
 })
